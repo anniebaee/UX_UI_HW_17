@@ -1,35 +1,24 @@
-.nav {
+.navBar {
   text-align: right;
   font-size: x-large;
-  background-color: #ceceef;
-  padding: 20px 32px;
+  background-color: #826fea;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
-/**issue with logo**/
-.logo{
-  size: 100%;
-  position: absolute;
-  top:-1px;
-  left: -400px;
-  max-width: 100%;
-  height: auto;
-}
-.nav a{
-  color:#826fea;
+.navBar img {
+  inline-size: 15%;
 }
 figure {
   color: #826fea;
   font-family: poppins;
   font-size: 50px;
-  padding: 70px;
 }
 figure img {
   float: left;
-  height: 600px;
-  padding: 25px;
 }
-figure b {
-  font-size: 40px;
-  opacity: 0.8;
+figure b{
+  font-size:40px;
+  opacity:.8;
 }
 a {
   color: white;
@@ -42,10 +31,10 @@ a:link {
   margin: 5%;
 }
 .work {
-  display: inline-block;
+  display:inline-block;
   background-color: #fffcd0;
   padding: 50px;
-  color: #826fea;
+  color:#826fea;
   font-family: poppins;
 }
 /**
@@ -54,47 +43,7 @@ a:link {
   background-color: #fffcd0;
 }
 **/
-#projects {
-  padding-bottom: 500px;
-  display: center;
-}
-button a{
-  color:gray;
-  text-decoration: none;
-}
-button {
-  border-color: #826fea;
-  border-radius: 50px;
-  background-color: white;
-  font-family: poppins;
-  font-size: 16px;
-  width: 200px;
-  height: 70px;
-  letter-spacing: 1px;
-}
-button:hover {
-  background-color: #ceceef;
-
-  color: white;
-  border-radius: 100px;
-}
-button:active {
-  background-color: white;
-  box-shadow: 0 1px rgb(255, 232, 232);
-  transform: translateY(4px);
-  color: #826fea;
-  border-radius: 50px;
-}
 #projects{
-  text-align: center;
-  padding-top: 50px;
-  font-size: 40px;
-}
-.footer{
-  background-color:#ceceef;
-  padding: 20px 32px;
-  text-align: center;
-}
-.footer a{
-  color:#826fea;
+  background-color: #E0F0E3;
+  padding-bottom: 450px;
 }
