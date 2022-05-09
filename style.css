@@ -1,0 +1,49 @@
+.navBar {
+  text-align: right;
+  font-size: x-large;
+  background-color: #826fea;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.navBar img {
+  inline-size: 15%;
+}
+figure {
+  color: #826fea;
+  font-family: poppins;
+  font-size: 50px;
+}
+figure img {
+  float: left;
+}
+figure b{
+  font-size:40px;
+  opacity:.8;
+}
+a {
+  color: white;
+  padding-inline: 3%;
+}
+a:link {
+  text-decoration: none;
+}
+#section1 {
+  margin: 5%;
+}
+.work {
+  display:inline-block;
+  background-color: #fffcd0;
+  padding: 50px;
+  color:#826fea;
+  font-family: poppins;
+}
+/**
+#container {
+  text-align: center;
+  background-color: #fffcd0;
+}
+**/
+#projects{
+  background-color: #E0F0E3;
+  padding-bottom: 450px;
+}
