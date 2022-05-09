@@ -1,7 +1,7 @@
 .nav {
   text-align: right;
-  font-size: x-large;
-  background-color: #ceceef;
+  font-family: nunito, sans-serif;
+  font-size: large;
   padding: 20px 32px;
 }
 /**issue with logo**/
@@ -14,7 +14,7 @@
   height: auto;
 }
 .nav a{
-  color:#826fea;
+  color: gray; 
 }
 figure {
   color: #826fea;
@@ -22,18 +22,15 @@ figure {
   font-size: 50px;
   padding: 70px;
 }
-figure img {
-  float: left;
-  height: 600px;
-  padding: 25px;
+figure img{
+  float:left;
 }
 figure b {
   font-size: 40px;
   opacity: 0.8;
 }
 a {
-  color: white;
-  padding-inline: 3%;
+  padding-inline: 2%;
 }
 a:link {
   text-decoration: none;
@@ -48,24 +45,10 @@ a:link {
   color: #826fea;
   font-family: poppins;
 }
-/**
-#container {
-  text-align: center;
-  background-color: #fffcd0;
-}
-**/
-#projects {
-  padding-bottom: 500px;
-  display: center;
-}
 h2{
   text-align: center;
   color:#826fea;
   font-family: poppins;
-}
-button a{
-  color:gray;
-  text-decoration: none;
 }
 button {
   border-color: #826fea;
@@ -76,30 +59,45 @@ button {
   width: 200px;
   height: 70px;
   letter-spacing: 1px;
+  color:gray;
+  text-decoration: none;
 }
 button:hover {
-  background-color: #ceceef;
-
   color: white;
+  background-color: #ceceef;
   border-radius: 100px;
 }
 button:active {
   background-color: white;
-  box-shadow: 0 1px rgb(255, 232, 232);
   transform: translateY(4px);
-  color: #826fea;
   border-radius: 50px;
+  color:#826fea;
 }
 #projects{
   text-align: center;
   padding-top: 50px;
   font-size: 40px;
 }
+#projects img{
+  position: center;
+}
+#projects h1{
+  color:#826fea;
+}
 .footer{
-  background-color:#ceceef;
   padding: 20px 32px;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
 }
 .footer a{
   color:#826fea;
+  font-size: 20px;
+}
+.contact{
+  text-align: center;
+}
+.contact p{
+color: #826fea;
+font-size: 18px;
 }
