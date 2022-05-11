@@ -73,6 +73,12 @@ button:active {
   border-radius: 50px;
   color:#826fea;
 }
+button a:hover{
+  color:white;
+}
+button a:active{
+  color:#826fea;
+}
 #projects{
   text-align: center;
   padding-top: 50px;
