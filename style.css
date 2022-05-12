@@ -21,6 +21,8 @@ figure {
   font-family: poppins;
   font-size: 50px;
   padding: 70px;
+  display:flex;
+  align-items:flex-start;
 }
 figure img{
   float:left;
