@@ -1,10 +1,11 @@
+/**Top Navigation**/
 .nav {
   text-align: right;
   font-family: nunito, sans-serif;
   font-size: large;
   padding: 20px 32px;
+/**position:fixed top:0px;**/
 }
-/**issue with logo**/
 .logo{
   size: 100%;
   position: absolute;
@@ -12,6 +13,7 @@
   left: -350px;
   max-width: 100%;
   height: auto;
+/**  position:fixed**/
 }
 .nav a{
   color: gray; 
@@ -24,6 +26,7 @@ figure {
   display:flex;
   align-items:flex-start;
 }
+/**Body of Page**/
 figure img{
   float:left;
 }
@@ -37,19 +40,11 @@ a {
 a:link {
   text-decoration: none;
 }
-#section1 {
-  margin: 5%;
-}
 .work {
   display: inline-block;
   background-color: #fffcd0;
   padding: 50px;
   color: #826fea;
-  font-family: poppins;
-}
-h2{
-  text-align: center;
-  color:#826fea;
   font-family: poppins;
 }
 button {
